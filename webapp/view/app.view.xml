@@ -1,0 +1,19 @@
+<mvc:View controllerName="simpleInput.controller.app" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true" xmlns="sap.m">
+	<App>
+		<pages width="100%">
+				<Page title="{i18n>title}">
+					<content class="sapUiMediumMarginBeginEnd" >
+						<Label class="sapUiMediumMarginBeginEnd"  text="First Name" width="100%"/>
+						<Input class="sapUiMediumMarginBeginEnd" value="Iyankannu" width="100%"/>
+						<Label text="Last Name" class="sapUiMediumMarginBeginEnd" width="100%"/>
+						<Input class="sapUiMediumMarginBeginEnd" value="Iyankannu" width="100%"/>
+						<Label text="Date of Birth" class="sapUiMediumMarginBeginEnd" width="100%"/>
+						<DatePicker id="id_dp1" class="sapUiMediumMarginBeginEnd" valueFormat="DD-MM-YYYY" 
+							displayFormat="DD-MM-YYYY"
+						change="handleChange" width="100%" />
+					</content>
+				</Page>
+		</pages>
+	</App>
+</mvc:View>
